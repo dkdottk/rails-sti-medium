@@ -1,1 +1,1 @@
-Code example for 
+Code example for [Medium article](https://medium.com/@dkdottk/how-to-sti-in-rails-204b4fbc9603)
