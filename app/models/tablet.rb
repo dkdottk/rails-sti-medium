@@ -1,0 +1,2 @@
+class Tablet < Product
+end

@@ -1,0 +1,8 @@
+<%= form_with(model: product.becomes(Product)) do |f| %>
+  <%= f.hidden_field :type %>
+
+  <%= f.label :network_standard %>
+  <%= f.select :network_standard, ['LTE', '3G', 'E'] %>    
+  
+  <%= f.submit %>
+<% end %>

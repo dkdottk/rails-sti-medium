@@ -1,0 +1,10 @@
+<h1>Products</h1>
+
+<div id="products">
+  <%= render partial: 'products/product', collection: @products, as: :product %>
+</div>
+
+<%= link_to "Add new Laptop", new_product_path(type: 'Laptop') %>
+<%= link_to "Add new Tablet", new_product_path(type: 'Tablet') %>
+
+<%= link_to "New product", new_product_path %>

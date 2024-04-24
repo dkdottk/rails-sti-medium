@@ -1,0 +1,8 @@
+<%= form_with(model: product.becomes(Product)) do |f| %>
+  <%= f.hidden_field :type %>
+
+  <%= f.label :gpu %>
+  <%= f.select :gpu, ['AMN 4056', 'GTK 7667 XX', 'INLET SUPER'] %>    
+  
+  <%= f.submit %>
+<% end %>
